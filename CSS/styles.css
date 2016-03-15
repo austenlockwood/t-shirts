@@ -1,0 +1,189 @@
+* {
+  font-size: 1em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: 100;
+  color: #1b85b8;
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+  position: absolute;
+}
+
+article {
+  width: 300px;
+  height: 380px;
+  position: relative;
+  margin: 20px;
+}
+
+[class*='col-']  {
+  float: left;
+}
+
+article img {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #1b85b8;
+  box-sizing: border-box;
+  position: relative;
+}
+
+article nav  {
+  width: 300px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+article ul  {
+  list-style-type: none;
+  margin-top: -4px;
+}
+
+article li  {
+  border-left: 2px solid #1b85b8;
+  border-bottom: 2px solid #1b85b8;
+  width: 20%;
+  height: 40px;
+  float: left;
+  box-sizing: border-box;
+}
+
+nav>ul>li:last-child {
+  border-right: 2px solid #1b85b8;
+}
+
+
+.spin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+}
+
+button.circle {
+  height: 100%;
+  width: 100%;
+}
+
+article button{
+  outline: none;
+  background: none;
+  border: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+li ul {
+  /*display: none;*/
+  visibility: visible;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 1s;
+  width: 72px;
+  /*height: 160px;*/
+  /*height: 60px;
+  bottom: 60px;*/
+  /*left: 118px;*/
+  border-top: 2px solid #1b85b8;
+  border-right: 2px solid #1b85b8;
+  box-sizing: border-box;
+  /*border-left: 2px solid #1b85b8;*/
+  /*is this really what you want to do?*/
+}
+
+li:hover ul {
+  visibility: visible;
+  display: block;
+  opacity: 1;
+  background-color: white;
+  /*color: white;*/
+  /*background-color: #1b85b8;*/
+}
+
+.sizebox {
+  position: relative;
+}
+
+.sizelist {
+  position: absolute;
+  bottom: 100%;
+  left: -7px;
+}
+
+
+li ul li {
+  width: 100%;
+  height: 40px;
+}
+
+article footer  {
+  clear: both;
+  height: 40px;
+  box-sizing: border-box;
+
+}
+
+article footer p {
+  position: relative;
+  top: 15px;
+}
+
+.dollar  {
+  float: right;
+  font-weight: bold;
+}
+
+button{
+  display: block;
+  float: left;
+  height: 100%;
+  border: none;
+  border-right: 2px solid #1b85b8;
+  background: none;
+  cursor: pointer;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+button:hover  {
+  background-color: #1b85b8;
+}
+
+nav button:hover i {
+  color: white;
+}
+
+.swatches {
+  /*display: block;
+  background-color: #1b85b8;*/
+  /*width: 2em;
+  float: left;
+  height: 2em;
+  margin: 0.2em;*/
+}
+
+.swatches .pink  {
+  background-color: pink;
+}
+
+.swatches .orange  {
+  background-color: orange;
+}
+
+.swatches .blue  {
+  background-color: blue;
+}
+
+.swatches .green  {
+  background-color: green;
+}
+
+.productoptions i {
+}
